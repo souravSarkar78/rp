@@ -1,5 +1,6 @@
 export default defineNuxtConfig({
   modules: ['@nuxtjs/tailwindcss'],
+
   app: {
     head: {
       title: 'Writers Hub',
@@ -9,9 +10,12 @@ export default defineNuxtConfig({
       ]
     }
   },
+
   tailwindcss: {
     config: {
       darkMode: 'class'
     }
-  }
+  },
+
+  compatibilityDate: '2024-10-31'
 })

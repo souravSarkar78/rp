@@ -79,13 +79,13 @@
         </div>
 
         <div class="p-4 border-t border-gray-200 dark:border-gray-700">
-          <NuxtLink 
+          <router-link 
             to="/notifications"
             @click="closeDropdown"
             class="block w-full text-center text-sm text-indigo-600 hover:text-indigo-800 dark:text-indigo-400 dark:hover:text-indigo-300"
           >
             View all notifications
-          </NuxtLink>
+          </router-link>
         </div>
       </div>
     </Transition>
